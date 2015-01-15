@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/front1"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ByDuration" >
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter the duration after which you want to trigger the event."
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btnm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="53dp"
+        android:text="Change Phone Mode" />
+
+    <Button
+        android:id="@+id/btnp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnm"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_marginBottom="44dp"
+        android:text="Call/SMS" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editText2"
+        android:layout_alignBottom="@+id/editText2"
+        android:layout_alignRight="@+id/tv2"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="sec"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv2"
+        android:layout_below="@+id/tv2"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="60dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="hours"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editText1"
+        android:layout_centerHorizontal="true"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="min"
+        android:inputType="number" >
+
+        <requestFocus />
+    </EditText>
+
+</RelativeLayout>

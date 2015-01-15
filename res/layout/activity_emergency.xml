@@ -1,0 +1,33 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/front1"
+    tools:context=".Emergency" >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="156dp"
+        android:layout_height="wrap_content"
+        android:layout_x="76dp"
+        android:layout_y="68dp"
+        android:text="@string/Ambulance" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="156dp"
+        android:layout_height="wrap_content"
+        android:layout_x="78dp"
+        android:layout_y="177dp"
+        android:text="@string/Police" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="156dp"
+        android:layout_height="wrap_content"
+        android:layout_x="80dp"
+        android:layout_y="284dp"
+        android:text="@string/Fire" />
+
+</AbsoluteLayout>

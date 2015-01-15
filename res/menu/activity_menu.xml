@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+ 
+    <item
+        android:id="@+id/home_page"
+        android:orderInCategory="100"
+        android:showAsAction="collapseActionView"
+        android:title="@string/home_page"/>
+    <item
+        android:id="@+id/greetings"
+        android:orderInCategory="100"
+        android:showAsAction="collapseActionView"
+        android:title="@string/greetings"/>
+    <item
+        android:id="@+id/feedback"
+        android:orderInCategory="200"
+        android:showAsAction="ifRoom"
+        android:title="@string/feedback"/>
+    <item
+        android:id="@+id/credits"
+        android:orderInCategory="300"
+        android:showAsAction="collapseActionView"
+        android:title="@string/credits"/>
+
+</menu>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_home_page">HomePageActivity</string>
+    <string name="title_activity_gpslocation">GPSLocation</string>
+    <string name="title_activity_location_function">LocationFunction</string>
+	<string name="Ambulance">Ambulance</string>
+	<string name="Fire">Fire</string>
+	<string name="Police">Police</string>
+    <string-array name="txt">
+        <item name="i1">ChangeProfile</item>
+        <item name="i2">SendMessage</item>
+        <item name="i3">CallSomebody</item>
+    </string-array>
+    <string-array name="txt1">
+        <item name="i1">  Camera </item>
+        <item name="i2"> Music </item>
+        <item name="i3"> Emergency</item>
+        <item name="i4"> Calculator</item>
+        
+    </string-array>
+
+    <string name="app_name">example</string>
+
+    <color name="white">#ffffff</color>
+
+    <string name="title_activity_time_manager">TimeManager</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_by_duration">ByDuration</string>
+    <string name="title_activity_by_time">ByTime</string>
+    <string name="title_activity_by_time_call">ByTimeCall</string>
+    <string name="title_activity_security">Security</string>
+    <string name="title_activity_twitch">Twitch</string>
+    <string name="title_activity_twitchnext">Twitchnext</string>
+    <string name="title_activity_emergency">Emergency</string>
+    
+    <string name="home_page">Home</string>
+    <string name="greetings">Greetings</string>
+    <string name="credits">Credits</string>
+    <string name="feedback">Feedback</string>
+    <string name="name">Full Name</string>
+    <string name="email">Your Email</string>
+    <string name="subject">Enter a subject</string>
+    <string name="message">Your message</string>
+    <string name="send">Send Email</string>
+    <string name="send_mail">sendEmail</string>
+    
+    <string name="greetings_text">\n Hey buddy, this is our final year project, \'Autodroit\'.
+        \n And we are grateful to you for trying our application before its final submission. Hope you\'ll like it.
+        \n For any queries or suggestions, you can reach us through our mail. Just click feedback for that.
+        \n Thanks again.
+        \nRegards,
+        \nThe Autodroit Team.</string>
+    <string name="credits_text">
+        \nTeam members
+        \nSudhanshu Kukrety
+        \nSiddharth Garg
+        \nTapan Sonkar
+        \nVishal Kumar
+        \n\nProject guide
+        \nMr. Deepak Mangal
+        \n</string>
+    
+
+</resources>
